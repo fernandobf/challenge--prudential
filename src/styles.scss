@@ -1,0 +1,61 @@
+$blue-light: #768df4;
+$blue-dark: #4454ff;
+$shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.15);
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html,
+body{
+        overflow-x: hidden;
+    }
+
+body{
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #FAFAFA;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    input{
+        outline: none;
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+    }
+
+    input[type~=button]{
+        border:none;
+        font-weight: normal;
+        cursor: pointer;
+    }
+
+    ::placeholder {
+        color: rgba(68, 84, 255,.4);
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .carousel{margin-bottom: 74px;}
+    .carousel-inner{padding-bottom: 50px;}
+    ol.carousel-indicators{
+        li{
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #f2f2f2;;
+        }
+    .active{background-color:#4454ff}
+}
+
+.main .target{color: #999;}
